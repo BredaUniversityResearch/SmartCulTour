@@ -1,0 +1,496 @@
+{
+  "metadata": {
+    "date_modified": "9/13/2021",
+    "data_model_hash": "723E1B90245BA7C7A696FB0B5A2D6F87EAAA9E3FBED20A01428DC121D9260FA1",
+    "errors": 0,
+    "editor_version": 0.0,
+    "min_supported_client": "",
+    "max_supported_client": ""
+  },
+  "datamodel": {
+    "config": {
+      "parameters": [
+        {
+          "name": "Crowdedness of spaces and facilities",
+          "longName": "Crowdedness of public spaces and local facilities",
+          "description": "What is the effect of the intervention on the crowdedness of public spaces and local facilities that are (also) utilized by the residents?",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Leisure facilities for locals",
+          "longName": "Quality and quantity of recreational and cultural facilities for locals",
+          "description": "What is the effect of the intervention on the availability and accessibility for residents of cultural attractions and facilities (also when they are primarly meant for tourists)?",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Affordable cost of living",
+          "longName": "Affordable cost of living",
+          "description": "What is the effect of the intervention on having an affordable cost of living for residents?",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Sense of community for locals",
+          "longName": "Pride and sense of belonging  to a community",
+          "description": "What is the effect of the intervention on the sense of pride and belonging that locals feel towards the community and its culture?",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Fair tourism cost and benefits",
+          "longName": "Fair distribution of costs and benefit of cultural tourism",
+          "description": "Are the people paying the social and financial cost of cultural tourism also the ones benefitting from it and vice versa?",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Valorization of local culture",
+          "longName": "Valorization of local culture and cultural heritage",
+          "description": "What is the effect of the intervention on the value and importance attached by residents to the local culture?",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Knowledge of local culture",
+          "longName": "Awareness of and knowledge about the local culture",
+          "description": "What is the effect of the intervention on the awareness of and knowledge about the local culture for both locals and visitors?",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Natural landscape preservation",
+          "longName": "Preservation of the natural landscape",
+          "description": "What is the effect of the intervention on the preservation of the natural landscape from both natural decay and human pressures?\n\nThis parameter focuses on the land itself rather than the flora and fauna in and on that land.",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Availability of green areas",
+          "longName": "Availability of green areas",
+          "description": "What is the effect of the intervention on the availability and accessibility of natural areas to both locals and visitors?",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Number of cultural tourists",
+          "longName": "Number of cultural tourists",
+          "description": "What is the effect of the intervention on the number of cultural tourists that visit each year?",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Quality of tourism employment",
+          "longName": "Quality of employment opportunities in cultural tourism",
+          "description": "What is the effect of the intervention on the quality of employment opportunities in cultural tourism (e.g., fair wage or benefits, consistency of work during high/low season, inclusive workplace, etc.)?",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Affordable housing",
+          "longName": "Availability of affordable housing",
+          "description": "What is the effect of the intervention on the amount of affordable housing that is available to residents?",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Professional opportunities ",
+          "longName": "Professional and educational opportunities",
+          "description": "What is the effect of the intervention on the availability of professional and educational opportunities for residents?",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Tourism decision making involvement",
+          "longName": "Involvement of locals in cultural tourism decision-making",
+          "description": "What is the effect of the intervention on the involvement of locals in the decision-making concerning cultural tourism development and strategies?",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Inclusion of disadvantaged groups",
+          "longName": "Inclusion of minorities and disadvantaged groups in socio-cultural life",
+          "description": "What is the effect of the intervention on the inclusion of minorities and disadvantaged groups in the socio-cultural life of the area?",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Preservation of cultural heritage",
+          "longName": "Preservation of tangible & intangible cultural heritage",
+          "description": "What is the effect of the intervention on the preservation and protection of both tangible and intangible cultural heritage.",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Pollution and waste reduction ",
+          "longName": "Pollution and waste reduction ",
+          "description": "What is the effect of the intervention on the reduction of pollution (air, water & ground) and both managed and unmanaged waste.",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Individual tourist expenditure",
+          "longName": "Individual  tourist expenditure",
+          "description": "What is the effect of the intervention on the average amount of money a single tourist will contribute to the local economy during their stay?",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Attitude towards cultural tourism",
+          "longName": "Positive attitude of locals towards cultural tourism",
+          "description": "What is the effect of the intervention on locals having a positive attitude towards cultural tourism?",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Cultural understanding",
+          "longName": "Cultural understanding between locals and tourists",
+          "description": "What is the effect of the intervention on the tourists' understanding of the local culture (and vice-versa, if applicable)?",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Biodiversity",
+          "longName": "Biodiversity",
+          "description": "What is the effect of the intervention on the (preservation of) biodiversity in the local flora and fauna?\n",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Crowdedness of attractions",
+          "longName": "Crowdedness of attractions",
+          "description": "What is the effect of the intervention on the crowdedness of local attractions?",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Entrepeneurial opportunities",
+          "longName": "Entrepeneurial opportunities in cultural tourism",
+          "description": "What is the effect of the intervention on the opportunities for local entrepeneurs to start new businesses within the cultural tourism sector?",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Revenue from cultural tourism",
+          "longName": "Revenue from cultural tourism",
+          "description": "What is the effect of the intervention on the revenue local businesses generate from cultural tourism?",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Local jobs in cultural tourisms",
+          "longName": "Number of people employed in cultural tourism",
+          "description": "What is the effect of the intervention on the amount of locals that have jobs within the cultural tourism sector?",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Financial support for cultural tourism",
+          "longName": "Financial support  from public sector for cultural tourism",
+          "description": "What is the effect of the intervention on the availability and quantity of financial support to cultural tourism by the public sector?",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Hireable cultural tourism professionals",
+          "longName": "Availability of qualified professional to hire in cultural tourism",
+          "description": "What is the effect of the intervention on the availability of qualified professionals for hire within the cultural tourism sector?",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Attractiveness of cultural resources ",
+          "longName": "Attractiveness of cultural resources to cultural tourists",
+          "description": "What is the effect of the intervention on the attractiveness of the local cultural resources to cultural tourists?",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Contemporary cultural development",
+          "longName": "Contemporary creative & cultural development",
+          "description": "What is the effect of the intervention on the development of new creative and artistic cultural expressions?\nThis could be through financial incentives, work or exposition spaces, marketing etc.",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Accessibility by public transport",
+          "longName": "Accessibility by public transport",
+          "description": "What is the effect of the intervention on the accessibility of tourist attractions and accomodation by public transport?",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Noise pollution reduction",
+          "longName": "Noise pollution reduction",
+          "description": "What is the effect of the intervention on the reduction of noise pollution caused by visitors?",
+          "yesNoQuestion": false,
+          "general": false
+        },
+        {
+          "name": "Right stakeholders and resources",
+          "longName": "Right stakeholders and resources",
+          "description": "Does the intervention have the right resources and support from the right stakeholders to achieve its goals?",
+          "yesNoQuestion": true,
+          "general": true
+        },
+        {
+          "name": "Expected success",
+          "longName": "Do you expect the intervention to be successful?",
+          "description": "Do you expect the intervention to be successful?",
+          "yesNoQuestion": true,
+          "general": true
+        }
+      ],
+      "roles": [
+        {
+          "name": "Resident",
+          "description": "You are the community respresentative of a group of residents.\nWhen you support an intervention it usually represents the collaboration and input of the local community.",
+          "parameterNames": [
+            "Affordable cost of living",
+            "Sense of community for locals",
+            "Crowdedness of spaces and facilities",
+            "Attitude towards cultural tourism",
+            "Fair tourism cost and benefits",
+            "Leisure facilities for locals",
+            "Tourism decision making involvement",
+            "Affordable housing",
+            "Availability of green areas",
+            "Knowledge of local culture",
+            "Cultural understanding",
+            "Entrepeneurial opportunities",
+            "Quality of tourism employment"
+          ],
+          "goals": [
+            {
+              "name": "Increase livability",
+              "description": "As a resident community representative it is your goal to make the region a good place to live.\n\nIn the game this means increasing the livability KPI."
+            },
+            {
+              "name": "Increase equitability",
+              "description": "As a resident community representative it is your goal to ensure a sense of balance and fairness between all the people living in, working in or visiting the region. This means a balance and understanding between the locals and tourists, but also a fair distribution of the costs and benefits of tourism.\n\nIn game terms this means increasing the equitability KPI."
+            }
+          ]
+        },
+        {
+          "name": "Government",
+          "description": "You are a representative of the local government, be it a national policy maker, member of a DMO or part of a municipality.\nWhen you support an intervention it usually represents the contribution of funding or a policy change.",
+          "parameterNames": [
+            "Financial support for cultural tourism",
+            "Pollution and waste reduction ",
+            "Affordable housing",
+            "Quality of tourism employment",
+            "Inclusion of disadvantaged groups",
+            "Tourism decision making involvement",
+            "Professional opportunities ",
+            "Fair tourism cost and benefits",
+            "Valorization of local culture",
+            "Affordable cost of living",
+            "Accessibility by public transport",
+            "Natural landscape preservation",
+            "Biodiversity"
+          ],
+          "goals": [
+            {
+              "name": "Increase lowest KPI",
+              "description": "As the government it is your goal make the region flourish by balancing the needs and desires of all the people that live in, work in or visit it.\n\nIn game terms this means focusing on increasing the KPI that is currently lowest."
+            }
+          ]
+        },
+        {
+          "name": "Entrepeneur",
+          "description": "You are a local entrepeneur, be it an investor, tech company, real estate agency or creative business.\nWhen you support an intervention it usually represents the contribution of funding, management or labour.",
+          "parameterNames": [
+            "Number of cultural tourists",
+            "Entrepeneurial opportunities",
+            "Hireable cultural tourism professionals",
+            "Local jobs in cultural tourisms",
+            "Financial support for cultural tourism",
+            "Revenue from cultural tourism",
+            "Crowdedness of attractions",
+            "Attractiveness of cultural resources ",
+            "Individual tourist expenditure",
+            "Professional opportunities ",
+            "Noise pollution reduction",
+            "Valorization of local culture",
+            "Preservation of cultural heritage"
+          ],
+          "goals": [
+            {
+              "name": "Increase economy KPIs",
+              "description": "As a local entrepeneur it is your goal to improve the impact cultural tourism has on the local economy. This means increasing the income generated from cultural tourism, but also increasing the quality of work in cultural tourism for both employees and employers.\n\nIn game terms this means increasing the economic KPIs."
+            }
+          ]
+        },
+        {
+          "name": "Environmental expert",
+          "description": "You are an environmental expert. As a scientist or engineer you have extensive knowledge of the natural world and how to use and preserve it.\nWhen you support an intervention it usually represents the contribution of knowledge and expertise.",
+          "parameterNames": [
+            "Biodiversity",
+            "Availability of green areas",
+            "Natural landscape preservation",
+            "Noise pollution reduction",
+            "Accessibility by public transport",
+            "Pollution and waste reduction ",
+            "Leisure facilities for locals",
+            "Crowdedness of attractions",
+            "Crowdedness of spaces and facilities",
+            "Inclusion of disadvantaged groups",
+            "Contemporary cultural development",
+            "Number of cultural tourists",
+            "Individual tourist expenditure"
+          ],
+          "goals": [
+            {
+              "name": "Increase environmental KPIs",
+              "description": "As an evironmental expert your goal is to minimise the pressures humans place on the environment while at the same time making the region's natural heritage available for people.\n\nIn game terms this means increasing the environmental KPIs."
+            }
+          ]
+        },
+        {
+          "name": "Cultural heritage expert",
+          "description": "You are a cultural heritage expert and have extensive knowledge of the local culture and traditions.\nWhen you support an intervention it usually represents the contribution of knowledge and expertise.",
+          "parameterNames": [
+            "Contemporary cultural development",
+            "Attractiveness of cultural resources ",
+            "Cultural understanding",
+            "Preservation of cultural heritage",
+            "Knowledge of local culture",
+            "Valorization of local culture",
+            "Sense of community for locals",
+            "Number of cultural tourists",
+            "Individual tourist expenditure",
+            "Revenue from cultural tourism",
+            "Local jobs in cultural tourisms",
+            "Hireable cultural tourism professionals",
+            "Attitude towards cultural tourism"
+          ],
+          "goals": [
+            {
+              "name": "Increase Cultural KPIs",
+              "description": "As a cultural heritage expert your goal is to preserve tangible and intangible culture heritage while at the same time teaching people about and involving people in that heritage.\n\nIn game terms this means increasing the cultural KPIs."
+            }
+          ]
+        }
+      ],
+      "kpis": [
+        {
+          "name": "Visitability",
+          "description": "KPI description",
+          "category": 0,
+          "parameterWeights": {
+            "Availability of green areas": 0.25,
+            "Attitude towards cultural tourism": 0.75,
+            "Cultural understanding": 0.2,
+            "Crowdedness of attractions": -1.0,
+            "Attractiveness of cultural resources ": 1.0,
+            "Accessibility by public transport": 0.5
+          }
+        },
+        {
+          "name": "Livability",
+          "description": "KPI description",
+          "category": 0,
+          "parameterWeights": {
+            "Crowdedness of spaces and facilities": -1.0,
+            "Leisure facilities for locals": 1.0,
+            "Affordable cost of living": -1.0,
+            "Availability of green areas": 0.25,
+            "Quality of tourism employment": 0.5,
+            "Affordable housing": 1.0,
+            "Professional opportunities ": 0.5,
+            "Cultural understanding": 0.2,
+            "Entrepeneurial opportunities": 0.5,
+            "Local jobs in cultural tourisms": 0.5,
+            "Attractiveness of cultural resources ": 0.2,
+            "Accessibility by public transport": 0.1,
+            "Noise pollution reduction": 0.5
+          }
+        },
+        {
+          "name": "Equitability",
+          "description": "KPI description",
+          "category": 0,
+          "parameterWeights": {
+            "Fair tourism cost and benefits": 1.0,
+            "Tourism decision making involvement": 1.0,
+            "Inclusion of disadvantaged groups": 1.0,
+            "Cultural understanding": 0.2
+          }
+        },
+        {
+          "name": "Clean environment",
+          "description": "KPI description",
+          "category": 1,
+          "parameterWeights": {
+            "Crowdedness of spaces and facilities": -0.2,
+            "Number of cultural tourists": -0.1,
+            "Pollution and waste reduction ": 1.0,
+            "Crowdedness of attractions": -0.2,
+            "Accessibility by public transport": 0.1,
+            "Noise pollution reduction": 0.5
+          }
+        },
+        {
+          "name": "Availability and accessibility of natural resources",
+          "description": "KPI description",
+          "category": 1,
+          "parameterWeights": {
+            "Natural landscape preservation": 1.0,
+            "Availability of green areas": 1.0,
+            "Biodiversity": 1.0,
+            "Accessibility by public transport": 0.5
+          }
+        },
+        {
+          "name": "Number and expenditure of cultural tourists",
+          "description": "KPI Description",
+          "category": 2,
+          "parameterWeights": {
+            "Number of cultural tourists": 1.0,
+            "Individual tourist expenditure": 1.0,
+            "Revenue from cultural tourism": 1.0,
+            "Local jobs in cultural tourisms": 0.1
+          }
+        },
+        {
+          "name": "Quality of work in cultural tourism",
+          "description": "KPI Description",
+          "category": 2,
+          "parameterWeights": {
+            "Quality of tourism employment": 1.0,
+            "Professional opportunities ": 1.0,
+            "Entrepeneurial opportunities": 1.0,
+            "Local jobs in cultural tourisms": 1.0,
+            "Financial support for cultural tourism": 1.0,
+            "Hireable cultural tourism professionals": 1.0
+          }
+        },
+        {
+          "name": "Preservation of local culture",
+          "description": "KPI Description",
+          "category": 3,
+          "parameterWeights": {
+            "Valorization of local culture": 1.0,
+            "Preservation of cultural heritage": 1.0,
+            "Contemporary cultural development": 0.75
+          }
+        },
+        {
+          "name": "Knowledge of and engagement with local culture",
+          "description": "KPI Description",
+          "category": 3,
+          "parameterWeights": {
+            "Sense of community for locals": 1.0,
+            "Knowledge of local culture": 1.0,
+            "Attitude towards cultural tourism": 0.1,
+            "Cultural understanding": 1.0,
+            "Contemporary cultural development": 0.75
+          }
+        }
+      ]
+    },
+    "save": null,
+    "assignment": null
+  }
+}

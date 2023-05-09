@@ -1,0 +1,828 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bf8d69cb9e4edf48aa77499c7f0be87, type: 3}
+  m_Name: ColourBasedPalette
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 5f26c2f42401c8042b0a0912525a792e, type: 2}
+    - {fileID: 11400000, guid: c37c5a0b4aae1284d9ae75c774460761, type: 2}
+    - {fileID: 11400000, guid: dca4ca58234b11f4aa6591aa3e450190, type: 2}
+    - {fileID: 11400000, guid: aa7c3433d9d63c74eb04391e07d80abf, type: 2}
+    - {fileID: 11400000, guid: 8285024cc9a50344d9c30636a648a01c, type: 2}
+    - {fileID: 11400000, guid: 78510ab804aefe24ea04d422dbc5cb7d, type: 2}
+    - {fileID: 11400000, guid: 2fb9265deea36544d8823df2c8198440, type: 2}
+    - {fileID: 11400000, guid: 2f5a428ac8db3ec4e91d44f481c3eeca, type: 2}
+    - {fileID: 11400000, guid: d4a28b2a1197f7844a7dac3e3aeb9086, type: 2}
+    - {fileID: 11400000, guid: cf6756fb92850a5419af1e3581ddb192, type: 2}
+    - {fileID: 11400000, guid: 6561c942d39c95940861e7fd07ce0a37, type: 2}
+    - {fileID: 11400000, guid: 2cc9c9d0992dd7b4cb9b56027c46e783, type: 2}
+    - {fileID: 11400000, guid: d96afcc75848ad846b1bd3785e24e36c, type: 2}
+    - {fileID: 11400000, guid: 75aff80cb7057e345b910e955c9f8e1a, type: 2}
+    - {fileID: 11400000, guid: d4671243e8553ff4db9e01f4d3182ba3, type: 2}
+    - {fileID: 11400000, guid: 4c37eca45e2cef342835703383878f24, type: 2}
+    - {fileID: 11400000, guid: e66787d167d89a24a8a43b1df7b343c8, type: 2}
+    - {fileID: 11400000, guid: 831d0d74480e65242aa1484bf937a8a8, type: 2}
+    - {fileID: 11400000, guid: 2116f7237a1456c4c8a01df4f7719c2d, type: 2}
+    - {fileID: 11400000, guid: a638a61c2ea1b5c41a79e9be1d73e3ad, type: 2}
+    - {fileID: 11400000, guid: f9a2766a37a780b4a872aeefdcfd97fe, type: 2}
+    - {fileID: 11400000, guid: 5c2edb1cfbf5e6e48be66f51329c93db, type: 2}
+    - {fileID: 11400000, guid: 136b2f861c97c8940a55bbfc5276244c, type: 2}
+    - {fileID: 11400000, guid: e93bc2dc1346d7e419348c2a8a7ce18e, type: 2}
+    - {fileID: 11400000, guid: 4e71a1b345309c44f95cfd4454526658, type: 2}
+    - {fileID: 11400000, guid: 4334c3ef59042a14abfaf9b5939766fb, type: 2}
+    - {fileID: 11400000, guid: da2718af847c38f4c8894fa93221de13, type: 2}
+    - {fileID: 11400000, guid: d9878940ff3acd049ac8ea7f4ccbaa9e, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: colourAssets
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[ColourPalette.ColourAsset,
+        Assembly-CSharp-firstpass],[UnityEngine.Color, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.ObjectEqualityComparer`1[[ColourPalette.ColourAsset,
+        Assembly-CSharp-firstpass]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 28
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.9607843
+    - Name: 
+      Entry: 4
+      Data: 0.9843137
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.482
+    - Name: 
+      Entry: 4
+      Data: 0.0201884918
+    - Name: 
+      Entry: 4
+      Data: 0.0201884918
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.7490196
+    - Name: 
+      Entry: 4
+      Data: 0.03137255
+    - Name: 
+      Entry: 4
+      Data: 0.03137255
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.3207547
+    - Name: 
+      Entry: 4
+      Data: 0.3207547
+    - Name: 
+      Entry: 4
+      Data: 0.3207547
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0.5176471
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.6117647
+    - Name: 
+      Entry: 4
+      Data: 0.7568628
+    - Name: 
+      Entry: 4
+      Data: 0.8313726
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 6
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.464320749
+    - Name: 
+      Entry: 4
+      Data: 0.574448168
+    - Name: 
+      Entry: 4
+      Data: 0.631
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 7
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.683695257
+    - Name: 
+      Entry: 4
+      Data: 0.8054182
+    - Name: 
+      Entry: 4
+      Data: 0.8679245
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.129411772
+    - Name: 
+      Entry: 4
+      Data: 0.3647059
+    - Name: 
+      Entry: 4
+      Data: 0.3921569
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 9
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.07260001
+    - Name: 
+      Entry: 4
+      Data: 0.204599962
+    - Name: 
+      Entry: 4
+      Data: 0.22
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.126294
+    - Name: 
+      Entry: 4
+      Data: 0.401851535
+    - Name: 
+      Entry: 4
+      Data: 0.434000015
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 11
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.450980425
+    - Name: 
+      Entry: 4
+      Data: 0.815686345
+    - Name: 
+      Entry: 4
+      Data: 0.298039228
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 12
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.262620181
+    - Name: 
+      Entry: 4
+      Data: 0.475
+    - Name: 
+      Entry: 4
+      Data: 0.1735577
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 13
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.9215687
+    - Name: 
+      Entry: 4
+      Data: 0.976470649
+    - Name: 
+      Entry: 4
+      Data: 0.8980393
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 14
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.882353
+    - Name: 
+      Entry: 4
+      Data: 0.6
+    - Name: 
+      Entry: 4
+      Data: 0.04705883
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 15
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.65199995
+    - Name: 
+      Entry: 4
+      Data: 0.44336
+    - Name: 
+      Entry: 4
+      Data: 0.0347733349
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 16
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.929
+    - Name: 
+      Entry: 4
+      Data: 0.710168958
+    - Name: 
+      Entry: 4
+      Data: 0.276635617
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 17
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 18
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.908000052
+    - Name: 
+      Entry: 4
+      Data: 0.457632035
+    - Name: 
+      Entry: 4
+      Data: 0.457632035
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 19
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.9843138
+    - Name: 
+      Entry: 4
+      Data: 0.9450981
+    - Name: 
+      Entry: 4
+      Data: 0.862745166
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 20
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.540858
+    - Name: 
+      Entry: 4
+      Data: 0.872
+    - Name: 
+      Entry: 4
+      Data: 0.401991963
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 21
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.945098042
+    - Name: 
+      Entry: 4
+      Data: 0.9647059
+    - Name: 
+      Entry: 4
+      Data: 0.9764706
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 22
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.943
+    - Name: 
+      Entry: 4
+      Data: 0.897675157
+    - Name: 
+      Entry: 4
+      Data: 0.802493036
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 23
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.8503137
+    - Name: 
+      Entry: 4
+      Data: 0.929
+    - Name: 
+      Entry: 4
+      Data: 0.816591
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 24
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 25
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.858823538
+    - Name: 
+      Entry: 4
+      Data: 0.9137255
+    - Name: 
+      Entry: 4
+      Data: 0.9411765
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 26
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.443137258
+    - Name: 
+      Entry: 4
+      Data: 0.6313726
+    - Name: 
+      Entry: 4
+      Data: 0.7254902
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 27
+    - Name: $v
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.8980392
+    - Name: 
+      Entry: 4
+      Data: 0.745098054
+    - Name: 
+      Entry: 4
+      Data: 0.607843161
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
